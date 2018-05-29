@@ -39,11 +39,14 @@ public class GameTest {
         assertEquals("Android Wins!!", result);
     }
 
+
+    // Testing random choice - run this test several times and it will both pass and fail
+    // returning a comparison failure - Player Wins!! (fail) or "It's a draw!!" (pass).
     @Test
     public void canGetWinnerDraw(){
         game.setPlayerChoice(ChoiceType.ROCK);
         game.setAndroidChoice(ChoiceType.ROCK);
-        assertEquals("The game is a draw", game.getWinner());
+        assertEquals("It's a draw!!", game.getWinner());
     }
 
     @Test
