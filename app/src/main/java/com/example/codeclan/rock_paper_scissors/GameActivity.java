@@ -30,7 +30,7 @@ public class GameActivity extends AppCompatActivity {
 
 
     public void onClickRockButton(View button){
-        playerChoice.setText("Player chose ROCK");
+        playerChoice.setText("Player picked ROCK");
 
         Game game = new Game(ChoiceType.ROCK, ChoiceType.ROCK);
         ChoiceType androidChoice = game.randomiseAndroidChoice();
@@ -45,7 +45,7 @@ public class GameActivity extends AppCompatActivity {
     }
 
     public void onClickPaperButton(View button){
-        playerChoice.setText("Player chose PAPER");
+        playerChoice.setText("Player picked PAPER");
 
 
         Game game = new Game(ChoiceType.PAPER, ChoiceType.PAPER);
@@ -61,7 +61,7 @@ public class GameActivity extends AppCompatActivity {
     }
 
     public void onClickScissorsButton(View button){
-        playerChoice.setText("Player chose SCISSORS");
+        playerChoice.setText("Player picked SCISSORS");
 
         Game game = new Game(ChoiceType.SCISSORS, ChoiceType.SCISSORS);
         ChoiceType androidChoice = game.randomiseAndroidChoice();

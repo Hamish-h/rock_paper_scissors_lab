@@ -42,7 +42,7 @@ public class Game {
        ChoiceType android = getAndroidChoice();
 
        if (player == android) {
-           return "The game is a draw";
+           return "It's a draw!!";
        } else if ((player == ChoiceType.ROCK) && (android == ChoiceType.PAPER)) {
            return "Android Wins!!";
        } else if ((player == ChoiceType.ROCK) && (android == ChoiceType.SCISSORS)) {
