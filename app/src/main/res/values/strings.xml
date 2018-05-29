@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Rock_Paper_Scissors</string>
+    <string name="rock_button">ROCK</string>
+    <string name="paper_button">PAPER</string>
+    <string name="scissors_button">SCISSORS</string>
+    <string name="player_choice">PLAYER CHOICE</string>
+    <string name="android_choice">ANDROID CHOICE</string>
+    <string name="game_result">RESULT</string>
+
+</resources>
